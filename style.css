@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 225, 255, 0.192), rgba(227, 253, 255, 0.541), rgb(255, 255, 255));
+    height: 100vh;
+}
+
+#logo-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+#logo-inicial h1 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#logo-inicial h2 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+
+#logo-img {
+    width: 500px;
+    height: 300px;
+}
+
+#botao {
+    position: absolute;
+    top: 600px;
+    left: 585px;
+    width: 85px;
+    height: 35px;
+    background-color: #25e6ff49;
+    border: 1px solid #25e6ff49;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
