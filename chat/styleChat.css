@@ -41,6 +41,18 @@ main {
     height: 100%;
 }
 
+#lista h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+#lista p {
+    font-size: 20px;
+    margin: 15px;
+}
+
 #div-chat {
     display: flex;
     flex-direction: column;
@@ -70,9 +82,17 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 80px; /* ajusta para cantos arredondados */
+    border-radius: 80px; 
     display: flex;
   }
+
+#mensagens {
+    height: 400px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 0 10px 20px;
+}
 
   #input-mensagem-botao {
     display: flex;
@@ -84,7 +104,9 @@ main {
     height: 60px;
     border: 1px solid gray;
     border-radius: 12px;
-  }
+    margin: 0 0 10px 20px;
+}
+
 
   #icon-enviar-mensagem {
     width: 60px;

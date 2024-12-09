@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 225, 255, 0.192), rgba(227, 253, 255, 0.541), rgb(255, 255, 255));
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+#container-lista {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #005b6b;
+}
+
+#container-lista h1 {
+    margin: 30px;
+    font-size: 40px;
+
+}
+
+#lista p{
+    font-size: 25px;
+    margin: 15px;
+}

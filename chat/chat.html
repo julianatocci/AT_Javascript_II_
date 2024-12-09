@@ -20,7 +20,9 @@
    </header>
 
    <main>
-    <div id="lista"></div>
+    <div id="lista">
+        <h1>Users</h1>
+    </div>
 
     <div id="div-chat">
         <div id="div-foto-perfil">
@@ -30,12 +32,14 @@
             <p>Nome</p>
         </div>
 
+        <div id="mensagens"></div>
+
         <div id="input-mensagem-botao">
             <input type="text" placeholder="Digite sua mensagem!" id="input-mensagem">
             <button id="botao-enviar-mensagem"><img id="icon-enviar-mensagem" src="../imagens/iconEnviar.png" alt="icon enviar"></button>
         </div>
     </div>
    </main>
-    <script src="scriptChat.js"></script>
+    <script type="module" src="scriptChat.js"></script>
 </body>
 </html>
