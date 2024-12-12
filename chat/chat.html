@@ -7,39 +7,34 @@
     <title>Document</title>
 </head>
 <body>
-   <header>
-     <ul>
-        <li><a href="#">Fotos</a></li>
-        <li><a href="#">Arquivos</a></li>
-        <li><a href="#">Vídeo</a></li>
-        <li><a href="#">Chamada</a></li>
-        <li><a href="#">Jogos</a></li>
-        <li><a href="#">Atividades</a></li>
-        <li><a href="#">Convidar</a></li>
-     </ul>
-   </header>
-
-   <main>
-    <div id="lista">
-        <h1>Users</h1>
+    <div id="container-pagina-chat">
+        <header>
+            <ul>
+               <li><a href="../usuarios/indexUsuarios.html">Voltar</a>
+               </li>
+            </ul>
+          </header>
+       
+          <main>
+           <div id="lista">
+               <h1>Users</h1>
+           </div>
+       
+           <div id="div-chat">
+               <div id="div-foto-perfil">
+                   <p id="nomeUsuarioAtivo"></p>
+               </div>
+       
+               <div id="mensagens"></div>
+       
+               <div id="input-mensagem-botao">
+                   <input type="text" placeholder="Digite sua mensagem!" id="input-mensagem">
+                   <button id="botao-enviar-mensagem">Enviar</button>
+               </div>
+           </div>
+          </main>
     </div>
-
-    <div id="div-chat">
-        <div id="div-foto-perfil">
-            <div id="borda">
-                <img src="../imagens/pessoa_branco.png" alt="Sua imagem">
-            </div>
-            <p>Nome</p>
-        </div>
-
-        <div id="mensagens"></div>
-
-        <div id="input-mensagem-botao">
-            <input type="text" placeholder="Digite sua mensagem!" id="input-mensagem">
-            <button id="botao-enviar-mensagem"><img id="icon-enviar-mensagem" src="../imagens/iconEnviar.png" alt="icon enviar"></button>
-        </div>
-    </div>
-   </main>
+   
     <script type="module" src="scriptChat.js"></script>
 </body>
 </html>
